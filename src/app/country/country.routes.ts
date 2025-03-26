@@ -12,7 +12,7 @@ export const countryRoutes: Routes = [
     children: [
       { path: 'by-capital', component: ByCapitalPageComponent, },
       { path: 'by-country', component: ByCountryPageComponent, },
-      { path: 'by-regio', component: ByRegionPageComponent, },
+      { path: 'by-region', component: ByRegionPageComponent, },
 
       { path: 'by/:code', component: CountryPageComponent, },
 

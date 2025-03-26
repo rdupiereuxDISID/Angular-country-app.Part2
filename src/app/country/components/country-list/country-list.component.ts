@@ -2,7 +2,7 @@ import { Component, input } from '@angular/core';
 
 import { DecimalPipe } from '@angular/common';
 import { RouterLink } from '@angular/router';
-import { Country } from '../../interfaces/country.services';
+import { Country } from '../../interfaces/icountry';
 
 @Component({
   selector: 'country-list',

@@ -1,7 +1,7 @@
 import { Component, computed, input } from '@angular/core';
 
 import { DecimalPipe } from '@angular/common';
-import { Country } from '../../../interfaces/country.services';
+import { Country } from '../../../interfaces/icountry';
 
 @Component({
   selector: 'country-information-page',

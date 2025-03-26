@@ -1,5 +1,8 @@
-<footer class="footer bg-base-200 text-base-content p-10">
-  <aside>
+<!-- ✅ NUEVO: Se agregan clases para activar layout flexible -->
+<footer class="footer flex flex-wrap justify-between bg-base-200 text-base-content p-10">
+
+  <!-- ✅ NUEVO: Clases para ajustar comportamiento responsive -->
+  <aside class="w-full md:w-auto mb-6 md:mb-0">
     <svg
       width="50"
       height="50"
@@ -19,21 +22,23 @@
       Providing reliable tech since 1992
     </p>
   </aside>
-  <nav>
+
+  <!-- ✅ SE REPITE: Estas clases aseguran que cada columna se alinee correctamente en pantallas grandes, pero se apilen en móviles -->
+  <nav class="w-full md:w-auto mb-6 md:mb-0">
     <h6 class="footer-title">Services</h6>
     <a class="link link-hover">Branding</a>
     <a class="link link-hover">Design</a>
     <a class="link link-hover">Marketing</a>
     <a class="link link-hover">Advertisement</a>
   </nav>
-  <nav>
+  <nav class="w-full md:w-auto mb-6 md:mb-0">
     <h6 class="footer-title">Company</h6>
     <a class="link link-hover">About us</a>
     <a class="link link-hover">Contact</a>
     <a class="link link-hover">Jobs</a>
     <a class="link link-hover">Press kit</a>
   </nav>
-  <nav>
+  <nav class="w-full md:w-auto">
     <h6 class="footer-title">Legal</h6>
     <a class="link link-hover">Terms of use</a>
     <a class="link link-hover">Privacy policy</a>
